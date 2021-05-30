@@ -1,0 +1,26 @@
+name: 'Get Current Time'
+description: 'Get the current time from WorldClock in a variety of formats'
+branding:
+  icon: 'watch'  
+  color: '#2596be'
+inputs:
+  timezone: 
+    description: 'The [timezone code](https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations) to recieve the current time in. Defaults to utc (+0)'
+    required: false
+    default: 'utc'
+outputs:
+    dateTime:
+            description: 'The day of the week (i.e. Saturday)'
+    dayOfTheWeek:
+        description: 'The day of the week (i.e. Saturday)'
+    unixTime:
+        description: 'The Unix epoch, the number of seconds that have elapsed since January 1, 1970 rounded to the nearest second (i.e. 1622410833)'
+    windowsTime:
+        description: 'The Windows FILETIME timestamp, the number of 100-nanosecond intervals since the beginning of the year 1601(i.e. 132668721308032423)'
+    ordinalDate:
+        description: 'The year and number of days since January 1st (i.e. 2021-150)'
+    isDayLightSavingsTime: 
+        description: 'A boolean describing if the requested time reflects daylight savings time (i.e. false)'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
