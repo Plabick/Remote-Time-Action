@@ -1,4 +1,4 @@
-name: 'Get Current Time'
+name: 'Remote Time'
 description: 'Get the current time from WorldClock in a variety of formats'
 branding:
   icon: 'watch'  
