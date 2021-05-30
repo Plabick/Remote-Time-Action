@@ -2,7 +2,7 @@ name: 'Remote Time'
 description: 'Get the current time from WorldClock in a variety of formats'
 branding:
   icon: 'watch'  
-  color: '#2596be'
+  color: 'blue'
 inputs:
   timezone: 
     description: 'The [timezone code](https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations) to recieve the current time in. Defaults to utc (+0)'
