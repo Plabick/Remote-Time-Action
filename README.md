@@ -16,7 +16,7 @@ A lightweight GitHub Action to get the current time from the WorldClock time ser
 |unixTime|The Unix epoch time, the number of seconds that have elapsed since January 1, 1970, rounded to the nearest second|1622410833|
 |windowsTime|The Windows FILETIME timestamp, the number of 100-nanosecond intervals since the beginning of the year 1601|132668721308032423|
 |ordinalDate|The current year and number of days since January 1st|2021-150|
-|ordinalDate|A boolean describing if the requested time reflects daylight savings time|false|
+|isDayLightSavingsTime|A boolean describing if the requested time reflects daylight savings time|false|
 
 ## Example Usage
 ``` yaml
