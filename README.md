@@ -23,7 +23,6 @@ A lightweight GitHub Action to get the current time from the WorldClock time ser
 - name: Get Time
   id: time
   uses: Plabick/Remote-Time-Action@V1.0
-
   with:
     timezone: 'EST'
   
