@@ -1,5 +1,5 @@
 # Remote Time
-[![Node.js CI](https://github.com/Plabick/InternetTime/actions/workflows/CI.yml/badge.svg)](https://github.com/Plabick/InternetTime/actions/workflows/CI.yml)
+[![Node.js CI](https://github.com/Plabick/InternetTime/actions/workflows/CI.yml/badge.svg)](https://github.com/Plabick/InternetTime/actions/workflows/CI.yml) [![CodeQL](https://github.com/Plabick/Remote-Time-Action/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/Plabick/Remote-Time-Action/actions/workflows/codeql-analysis.yml)
 
 A lightweight GitHub Action to get the current time from the WorldClock time server in a variety of formats. Get consistent times for status monitoring, timestamping, and more without worrying about inconsistencies between build agents. 
 
