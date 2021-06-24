@@ -1,0 +1,17 @@
+name: Trufflehog Secret Scan
+on:
+ push:
+    branches: [ master, release/** ]
+ pull_request:
+    branches: [ master, release/** ]
+  workflow_dispatch:
+jobs:
+  Trufflehog:
+    runs-on: [ubuntu-lastest]
+    timeout-minutes: 15
+    steps:
+    
+    - uses: actions/checkout@v2
+
+    - name: trufflehog-actions-scan
+      uses: edplato/trufflehog-actions-scan@master
